@@ -46,7 +46,7 @@ export default function AboutMeSection() {
       </div>
 
       {/* Right - Description with dark background */}
-      <div className="flex-1 bg-[#2E2E2E] p-10 rounded-r-lg text-left text-white flex flex-col justify-center">
+      <div className="flex-1 bg-gray-800 p-10 rounded-r-lg text-left text-white flex flex-col justify-center">
         <h2 className="text-3xl font-extrabold text-orange-500 mb-4">About Me</h2>
         <p className="text-lg font-bold mb-2">I am a Full Stack Developer</p>
         <p className="leading-relaxed">
