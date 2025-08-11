@@ -4,6 +4,7 @@ import AboutSection from "./AboutSection";
 import ServicesContainer from "./ServicesContainer";
 import ProjectsSection from "./ProjectsSection";
 import SkillsSection from "./SkillsSection";
+import ContactMeSection from "./ContactMeSection";
 
 export default function LandingPage() {
   return (
@@ -13,6 +14,7 @@ export default function LandingPage() {
       <ServicesContainer />
       <ProjectsSection />
       <SkillsSection />
+      <ContactMeSection />
     </>
   );
 }

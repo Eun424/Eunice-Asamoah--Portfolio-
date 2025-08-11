@@ -13,17 +13,17 @@ export default function ProjectsSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Todo List App */}
-          <article className="bg-gray-800 rounded-lg overflow-hidden shadow-lg flex flex-col">
+          <article className="bg-white rounded-lg overflow-hidden shadow-lg flex flex-col">
             <img
               src={todoImage}
               alt="Todo List App"
               className="w-full h-44 object-cover transform transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
             />
             <div className="p-4 flex flex-col flex-1">
-              <h3 className="text-xl font-semibold text-white mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 Todo List App
               </h3>
-              <p className="text-gray-300 flex-1 mb-3">
+              <p className="text-gray-700 flex-1 mb-3">
                 A collaborative project built with HTML, CSS, and JavaScript.
                 This Todo List app helps users manage tasks efficiently.
               </p>
@@ -39,17 +39,17 @@ export default function ProjectsSection() {
           </article>
 
           {/* Travel Blog */}
-          <article className="bg-gray-800 rounded-lg overflow-hidden shadow-lg flex flex-col">
+          <article className="bg-white rounded-lg overflow-hidden shadow-lg flex flex-col">
             <img
               src={travelImage}
               alt="Travel Blog"
               className="w-full h-44 object-cover transform transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
             />
             <div className="p-4 flex flex-col flex-1">
-              <h3 className="text-xl font-semibold text-white mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 Travel Blog
               </h3>
-              <p className="text-gray-300 flex-1 mb-3">
+              <p className="text-gray-700 flex-1 mb-3">
                 A React and Tailwind CSS app showcasing travel stories with
                 favorites and interactive UI.
               </p>

@@ -1,5 +1,32 @@
 import React, { useEffect, useRef, useState } from "react";
-import { services } from "../data/data";
+import { FaPaintBrush, FaCode, FaReact, FaTools } from "react-icons/fa";
+
+const services = [
+  {
+    id: 1,
+    title: "Web Design",
+    description: "I create simple and clean websites that look good on all devices.",
+    icon: FaPaintBrush,
+  },
+  {
+    id: 2,
+    title: "Frontend Development",
+    description: "Building user-friendly pages using HTML, CSS, and JavaScript.",
+    icon: FaCode,
+  },
+  {
+    id: 3,
+    title: "React Development",
+    description: "Making websites interactive and easy to use with React.",
+    icon: FaReact,
+  },
+  {
+    id: 4,
+    title: "Support & Maintenance",
+    description: "Helping fix issues and keep your website running smoothly.",
+    icon: FaTools,
+  },
+];
 
 export default function ServicesContainer() {
   const ref = useRef(null);
