@@ -1,16 +1,12 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import myImage from "../assets/images/myImage.png";
-import resume from "../assets/EuniceAsamoah CV.pdf"
+import resume from "../assets/EuniceAsamoah CV.pdf";
 
 export default function LandingSection() {
   const words = ["I'm a Full Stack Developer"];
   const [text, setText] = useState("");
   const [index, setIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-
-  const scrollToAbout = () => {
-    document.getElementById("about-section")?.scrollIntoView({ behavior: "smooth" });
-  };
 
   useEffect(() => {
     const currentWord = words[index];
@@ -46,19 +42,13 @@ export default function LandingSection() {
           <div className="flex gap-4">
             <a
               href={resume}
-              download= "resume"
+              download="resume"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-orange-500 text-white px-6 py-3 shadow-lg shadow-black hover:bg-orange-600 transition rounded-md font-semibold"
             >
               View Resume
             </a>
-            <button
-              onClick={scrollToAbout}
-              className="bg-orange-500 text-white px-6 py-3 shadow-lg shadow-black hover:bg-orange-600 transition rounded-md font-semibold"
-            >
-              About Me
-            </button>
           </div>
         </div>
 
