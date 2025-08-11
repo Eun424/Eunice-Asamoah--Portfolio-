@@ -16,7 +16,7 @@ export default function Footer() {
           <FaGithub />
         </a>
         <a
-          href="https://twitter.com/yourusername"
+          href="https://github.com/Eun424"
           target="_blank"
           rel="noreferrer"
           className="hover:text-orange-500 transition"
@@ -25,7 +25,7 @@ export default function Footer() {
           <FaTwitter />
         </a>
         <a
-          href="https://linkedin.com/in/yourusername"
+          href="https://www.linkedin.com/in/eunice-asamoah-282198247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
           target="_blank"
           rel="noreferrer"
           className="hover:text-orange-500 transition"
