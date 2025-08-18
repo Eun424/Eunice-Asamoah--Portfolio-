@@ -54,7 +54,7 @@ export default function ProjectsSection() {
                 favorites and interactive UI.
               </p>
               <a
-                href="https://github.com/Eun424/cruz-blog.git"
+                href="thecruzblog.netlify.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-orange-500 hover:text-orange-400 font-semibold"
