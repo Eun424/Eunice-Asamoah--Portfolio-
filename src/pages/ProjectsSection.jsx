@@ -59,7 +59,7 @@ export default function ProjectsSection() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-orange-500 hover:text-orange-400 font-semibold"
               >
-                GitHub Repo <FaGithub className="ml-2" />
+                Live Demo <FaExternalLinkAlt className="ml-2" />
               </a>
             </div>
           </article>
